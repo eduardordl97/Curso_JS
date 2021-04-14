@@ -1,0 +1,19 @@
+body{
+    background: url(../img/hojas.jpg);
+    background-attachment: fixed; /* Mantener el fondo siempre igual */
+}
+#logo{
+    background-color:  rgb(42, 116, 13);
+}
+#menu li:hover{
+    background:rgb(42, 116, 13);
+}
+.button-more{
+    background:rgb(42, 116, 13);
+}
+
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    background:rgb(42, 116, 13) !important;
+    border: 1px solid green !important;
+}    
